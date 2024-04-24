@@ -49,7 +49,7 @@ function checkAns(idx) {
     } else {
         highScore = Math.max(highScore, level);
         scoreBord.innerText = `Highest Score: ${highScore}`;
-        h2.innerHTML = `Game Over! Your Score Was ${level} <br> Press any key to start again`;
+        h2.innerHTML = `Game Over! Your score is ${level} <br> Press any key to start again`;
         reset();
     }
 }
